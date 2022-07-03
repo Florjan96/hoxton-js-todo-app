@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0px; */
+    padding: 0px;
+}
+.app{
+    widows: 300px;
+    border-radius: 5%;
+    padding: 1rem;
+    border: 1px solid rgb(39, 37, 37);
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+button{
+    all: unset;
+    font-size: 0.9rem;
+    color: black;
+}
+.section-tittle{
+    font-size:1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+.todo{
+    display: grid;
+    grid-template-columns:auto 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid rgb(245, 239, 239);
+    padding: 0.5rem;
+}
